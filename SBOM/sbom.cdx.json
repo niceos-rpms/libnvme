@@ -1,0 +1,118 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/linux-nvme/libnvme"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "name": "libnvme",
+      "properties": [
+        {
+          "name": "niceos:package_dir",
+          "value": "libnvme"
+        },
+        {
+          "name": "niceos:evr",
+          "value": "1.16.1-1"
+        },
+        {
+          "name": "niceos:spec_sha256",
+          "value": "6f77b3eaeb8e53baa3260889118b52cca02ae9df3355c4d4f85cbc2616ac052f"
+        },
+        {
+          "name": "niceos:lock_sha256",
+          "value": "6f333644894edf033b3a48bbc480f8cbd92d7e9643e4dbc5910dc4c27e417a19"
+        }
+      ],
+      "purl": "pkg:rpm/libnvme@1.16.1-1",
+      "type": "library",
+      "version": "1.16.1-1"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ce1d9d393feb84c4e82ca096db2bdb7dd4a5fd1997d711cc1904796944f2c579"
+        }
+      ],
+      "name": "libnvme-1.16.1.tar.gz",
+      "properties": [
+        {
+          "name": "niceos:source_kind",
+          "value": "Source"
+        },
+        {
+          "name": "niceos:source_index",
+          "value": "0"
+        },
+        {
+          "name": "niceos:source_token",
+          "value": "https://github.com/linux-nvme/libnvme/archive/v1.16.1/libnvme-1.16.1.tar.gz"
+        },
+        {
+          "name": "niceos:pool_path",
+          "value": "libnvme-1.16.1.tar.gz"
+        }
+      ],
+      "type": "file"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/linux-nvme/libnvme"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "name": "libnvme",
+      "properties": [
+        {
+          "name": "niceos:package_dir",
+          "value": "libnvme"
+        },
+        {
+          "name": "niceos:evr",
+          "value": "1.16.1-1"
+        },
+        {
+          "name": "niceos:spec_sha256",
+          "value": "6f77b3eaeb8e53baa3260889118b52cca02ae9df3355c4d4f85cbc2616ac052f"
+        },
+        {
+          "name": "niceos:lock_sha256",
+          "value": "6f333644894edf033b3a48bbc480f8cbd92d7e9643e4dbc5910dc4c27e417a19"
+        }
+      ],
+      "purl": "pkg:rpm/libnvme@1.16.1-1",
+      "type": "library",
+      "version": "1.16.1-1"
+    },
+    "tools": [
+      {
+        "name": "mkcore.py",
+        "vendor": "NiceSOFT",
+        "version": "4.0"
+      }
+    ]
+  },
+  "specVersion": "1.4",
+  "version": 1
+}

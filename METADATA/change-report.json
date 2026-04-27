@@ -1,0 +1,63 @@
+{
+  "actions": [],
+  "diff": {
+    "package": "libnvme",
+    "package_fields": {
+      "epoch": {
+        "changed": false,
+        "new": null,
+        "old": null
+      },
+      "evr": {
+        "changed": false,
+        "new": "1.16.1-1",
+        "old": "1.16.1-1"
+      },
+      "name": {
+        "changed": false,
+        "new": "libnvme",
+        "old": "libnvme"
+      },
+      "release": {
+        "changed": false,
+        "new": "1",
+        "old": "1"
+      },
+      "version": {
+        "changed": false,
+        "new": "1.16.1",
+        "old": "1.16.1"
+      }
+    },
+    "sources": {
+      "added": [],
+      "changed_same_name": [],
+      "kind_or_index_changed": [],
+      "new_total": 1,
+      "old_total": 1,
+      "removed": [],
+      "unchanged": [
+        "libnvme-1.16.1.tar.gz"
+      ]
+    },
+    "spec": {
+      "changed_vs_dst": false,
+      "changed_vs_lock": false,
+      "dst_sha256": "6f77b3eaeb8e53baa3260889118b52cca02ae9df3355c4d4f85cbc2616ac052f",
+      "exists_in_core": true,
+      "new_sha256": "6f77b3eaeb8e53baa3260889118b52cca02ae9df3355c4d4f85cbc2616ac052f",
+      "old_lock_sha256": "6f77b3eaeb8e53baa3260889118b52cca02ae9df3355c4d4f85cbc2616ac052f"
+    },
+    "spec_file": "libnvme.spec",
+    "status": "existing"
+  },
+  "dry_run": false,
+  "generator": {
+    "name": "mkcore.py",
+    "vendor": "NiceSOFT",
+    "version": "4.0"
+  },
+  "mode": "update",
+  "package": "libnvme",
+  "run_id": "20260427T175349Z"
+}

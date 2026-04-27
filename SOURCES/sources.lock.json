@@ -1,0 +1,42 @@
+{
+  "counts": {
+    "patches": 0,
+    "sources": 1,
+    "total": 1
+  },
+  "items": [
+    {
+      "dst_name": "libnvme-1.16.1.tar.gz",
+      "gost12": "15c899f483ceba84387de150980dd98d1b88235ebdd4ad268c7df9e5140d36ab",
+      "index": 0,
+      "kind": "Source",
+      "pool_path": "libnvme-1.16.1.tar.gz",
+      "remote_url": "https://github.com/linux-nvme/libnvme/archive/v1.16.1/libnvme-1.16.1.tar.gz",
+      "sha256": "ce1d9d393feb84c4e82ca096db2bdb7dd4a5fd1997d711cc1904796944f2c579",
+      "size": 838564,
+      "token": "https://github.com/linux-nvme/libnvme/archive/v1.16.1/libnvme-1.16.1.tar.gz",
+      "wanted": "libnvme-1.16.1.tar.gz"
+    }
+  ],
+  "lock_format": 2,
+  "package": {
+    "dir": "libnvme",
+    "dir_policy": "spec-basename",
+    "epoch": null,
+    "evr": "1.16.1-1",
+    "name": "libnvme",
+    "release": "1",
+    "version": "1.16.1"
+  },
+  "rpmspec_context": {
+    "defines": [],
+    "with": [],
+    "without": []
+  },
+  "spec": {
+    "file": "libnvme.spec",
+    "gost12": "aa79777df02c1d17c494f7db2a2950bab8d30dccc87793d392e69f8435c0a04f",
+    "preprocessed_sha256": "8f9db6472d35ed4451812a62ad80baeab2f1fc3b882c99899206d4754427cbb6",
+    "sha256": "6f77b3eaeb8e53baa3260889118b52cca02ae9df3355c4d4f85cbc2616ac052f"
+  }
+}

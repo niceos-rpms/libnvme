@@ -1,0 +1,117 @@
+{
+  "cpe_candidates": [
+    {
+      "confidence": 0.55,
+      "cpe": "cpe:2.3:a:linux-nvme:libnvme:*:*:*:*:*:*:*:*",
+      "reason": "github linux-nvme/libnvme"
+    },
+    {
+      "confidence": 0.15,
+      "cpe": "cpe:2.3:a:libnvme:libnvme:*:*:*:*:*:*:*:*",
+      "reason": "fallback package name"
+    }
+  ],
+  "dependencies_from_spec": {
+    "BuildRequires": [
+      "dbus-devel",
+      "gcc",
+      "json-c-devel",
+      "meson",
+      "openssl-devel",
+      "python3-devel",
+      "swig"
+    ],
+    "Provides": [
+      "python3-nvme = 1.16.1-1"
+    ],
+    "Requires": [
+      "dbus",
+      "json-c",
+      "libnvme = 1.16.1-1",
+      "openssl",
+      "python3"
+    ]
+  },
+  "generator": {
+    "name": "mkcore.py",
+    "vendor": "NiceSOFT",
+    "version": "4.0"
+  },
+  "identifiers": {
+    "purl_rpm": "pkg:rpm/libnvme@1.16.1-1"
+  },
+  "language_ecosystems": {
+    "pypi": {
+      "enabled": false,
+      "name": null,
+      "version": null
+    }
+  },
+  "last_diff_summary": {
+    "has_changes": false,
+    "sources_added": 0,
+    "sources_changed_same_name": 0,
+    "sources_removed": 0,
+    "spec_changed": false
+  },
+  "lock_sha256": "6f333644894edf033b3a48bbc480f8cbd92d7e9643e4dbc5910dc4c27e417a19",
+  "metadata_format": 2,
+  "package_dir": "libnvme",
+  "package_dir_policy": "spec-basename",
+  "paths": {
+    "change_report": "METADATA/change-report.json",
+    "extra_gost_manifest": "SOURCES/sources.extra.gost",
+    "extra_sha256_manifest": "SOURCES/sources.extra.sha256",
+    "gost_manifest": "SOURCES/sources.gost",
+    "grype": null,
+    "lock": "SOURCES/sources.lock.json",
+    "openvex": null,
+    "sbom": "SBOM/sbom.cdx.json",
+    "sha256_manifest": "SOURCES/sources.sha256",
+    "sources_dir": "SOURCES",
+    "spec": "SPECS/libnvme.spec",
+    "trivy": null,
+    "vulns_summary": null
+  },
+  "sources": {
+    "items": [
+      {
+        "dst_name": "libnvme-1.16.1.tar.gz",
+        "gost12": "15c899f483ceba84387de150980dd98d1b88235ebdd4ad268c7df9e5140d36ab",
+        "index": 0,
+        "kind": "Source",
+        "pool_path": "libnvme-1.16.1.tar.gz",
+        "remote_url": "https://github.com/linux-nvme/libnvme/archive/v1.16.1/libnvme-1.16.1.tar.gz",
+        "sha256": "ce1d9d393feb84c4e82ca096db2bdb7dd4a5fd1997d711cc1904796944f2c579",
+        "size": 838564,
+        "token": "https://github.com/linux-nvme/libnvme/archive/v1.16.1/libnvme-1.16.1.tar.gz",
+        "wanted": "libnvme-1.16.1.tar.gz"
+      }
+    ],
+    "patches_total": 0,
+    "sources_total": 1,
+    "total": 1
+  },
+  "spec": {
+    "epoch": null,
+    "evr": "1.16.1-1",
+    "gost12": "aa79777df02c1d17c494f7db2a2950bab8d30dccc87793d392e69f8435c0a04f",
+    "license": "LGPL-2.1-or-later",
+    "name_tag": "libnvme",
+    "preprocessed_sha256": "8f9db6472d35ed4451812a62ad80baeab2f1fc3b882c99899206d4754427cbb6",
+    "release": "1",
+    "sha256": "6f77b3eaeb8e53baa3260889118b52cca02ae9df3355c4d4f85cbc2616ac052f",
+    "summary": "The libnvme library provides an API for working with NVMe devices",
+    "url": "https://github.com/linux-nvme/libnvme",
+    "version": "1.16.1"
+  },
+  "upstream_hints": {
+    "github": [
+      "linux-nvme/libnvme"
+    ],
+    "gitlab": [],
+    "hosts": [
+      "github.com"
+    ]
+  }
+}
