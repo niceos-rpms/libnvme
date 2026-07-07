@@ -6,16 +6,16 @@
   },
   "items": [
     {
-      "dst_name": "libnvme-1.16.1.tar.gz",
-      "gost12": "15c899f483ceba84387de150980dd98d1b88235ebdd4ad268c7df9e5140d36ab",
+      "dst_name": "libnvme-1.16.2.tar.gz",
+      "gost12": "eb2d8c262587e4399371ec058c32b057899fbb5d543e41ff37bb73efe1596758",
       "index": 0,
       "kind": "Source",
-      "pool_path": "libnvme-1.16.1.tar.gz",
-      "remote_url": "https://github.com/linux-nvme/libnvme/archive/v1.16.1/libnvme-1.16.1.tar.gz",
-      "sha256": "ce1d9d393feb84c4e82ca096db2bdb7dd4a5fd1997d711cc1904796944f2c579",
-      "size": 838564,
-      "token": "https://github.com/linux-nvme/libnvme/archive/v1.16.1/libnvme-1.16.1.tar.gz",
-      "wanted": "libnvme-1.16.1.tar.gz"
+      "pool_path": "libnvme-1.16.2.tar.gz",
+      "remote_url": "https://github.com/linux-nvme/libnvme/archive/v1.16.2/libnvme-1.16.2.tar.gz",
+      "sha256": "1d850d5a871559abf641d6e6b63bb86047e4cb26f3ad144597c2c64b3cff7231",
+      "size": 838790,
+      "token": "https://github.com/linux-nvme/libnvme/archive/v1.16.2/libnvme-1.16.2.tar.gz",
+      "wanted": "libnvme-1.16.2.tar.gz"
     }
   ],
   "lock_format": 2,
@@ -26,7 +26,7 @@
     "evr": "1.16.2-1",
     "name": "libnvme",
     "release": "1",
-    "version": "1.16.1"
+    "version": "1.16.2"
   },
   "rpmspec_context": {
     "defines": [],
@@ -35,8 +35,8 @@
   },
   "spec": {
     "file": "libnvme.spec",
-    "gost12": "aa79777df02c1d17c494f7db2a2950bab8d30dccc87793d392e69f8435c0a04f",
-    "preprocessed_sha256": "8f9db6472d35ed4451812a62ad80baeab2f1fc3b882c99899206d4754427cbb6",
-    "sha256": "6f77b3eaeb8e53baa3260889118b52cca02ae9df3355c4d4f85cbc2616ac052f"
+    "gost12": "63954b420a8ab190b29fcf3743f80805df50e8fe7a19008d387325740e45c365",
+    "preprocessed_sha256": "a5993c36ab1bb799c5e06bc848b495805611c5e070aa0bfb2ffe505ff7b6720a",
+    "sha256": "aacad1c25f602974cf2e03a1f01ee016388e726a2a079fb0b85a3ed9c8a56b56"
   }
 }

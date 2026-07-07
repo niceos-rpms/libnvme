@@ -23,29 +23,29 @@
         },
         {
           "name": "niceos:evr",
-          "value": "1.16.1-1"
+          "value": "1.16.2-1"
         },
         {
           "name": "niceos:spec_sha256",
-          "value": "6f77b3eaeb8e53baa3260889118b52cca02ae9df3355c4d4f85cbc2616ac052f"
+          "value": "aacad1c25f602974cf2e03a1f01ee016388e726a2a079fb0b85a3ed9c8a56b56"
         },
         {
           "name": "niceos:lock_sha256",
-          "value": "6f333644894edf033b3a48bbc480f8cbd92d7e9643e4dbc5910dc4c27e417a19"
+          "value": "ae00755b45602608868e631dc508dc94faa6f11ef04a6caef58a0ff6c2b2434a"
         }
       ],
-      "purl": "pkg:rpm/libnvme@1.16.1-1",
+      "purl": "pkg:rpm/libnvme@1.16.2-1",
       "type": "library",
-      "version": "1.16.1-1"
+      "version": "1.16.2-1"
     },
     {
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "ce1d9d393feb84c4e82ca096db2bdb7dd4a5fd1997d711cc1904796944f2c579"
+          "content": "1d850d5a871559abf641d6e6b63bb86047e4cb26f3ad144597c2c64b3cff7231"
         }
       ],
-      "name": "libnvme-1.16.1.tar.gz",
+      "name": "libnvme-1.16.2.tar.gz",
       "properties": [
         {
           "name": "niceos:source_kind",
@@ -57,11 +57,11 @@
         },
         {
           "name": "niceos:source_token",
-          "value": "https://github.com/linux-nvme/libnvme/archive/v1.16.1/libnvme-1.16.1.tar.gz"
+          "value": "https://github.com/linux-nvme/libnvme/archive/v1.16.2/libnvme-1.16.2.tar.gz"
         },
         {
           "name": "niceos:pool_path",
-          "value": "libnvme-1.16.1.tar.gz"
+          "value": "libnvme-1.16.2.tar.gz"
         }
       ],
       "type": "file"
@@ -90,20 +90,20 @@
         },
         {
           "name": "niceos:evr",
-          "value": "1.16.1-1"
+          "value": "1.16.2-1"
         },
         {
           "name": "niceos:spec_sha256",
-          "value": "6f77b3eaeb8e53baa3260889118b52cca02ae9df3355c4d4f85cbc2616ac052f"
+          "value": "aacad1c25f602974cf2e03a1f01ee016388e726a2a079fb0b85a3ed9c8a56b56"
         },
         {
           "name": "niceos:lock_sha256",
-          "value": "6f333644894edf033b3a48bbc480f8cbd92d7e9643e4dbc5910dc4c27e417a19"
+          "value": "ae00755b45602608868e631dc508dc94faa6f11ef04a6caef58a0ff6c2b2434a"
         }
       ],
-      "purl": "pkg:rpm/libnvme@1.16.1-1",
+      "purl": "pkg:rpm/libnvme@1.16.2-1",
       "type": "library",
-      "version": "1.16.1-1"
+      "version": "1.16.2-1"
     },
     "tools": [
       {
