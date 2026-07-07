@@ -1,5 +1,5 @@
 Name:           libnvme
-Version:        1.16.1
+Version:        1.16.2
 Release:        1%{?dist}
 Summary:        The libnvme library provides an API for working with NVMe devices
 Summary(ru):    Библиотека libnvme предоставляет API для работы с NVMe-устройствами
@@ -20,7 +20,9 @@ BuildRequires:  json-c-devel
 BuildRequires:  meson
 BuildRequires:  openssl-devel
 BuildRequires:  python3-devel
+BuildRequires:	python3-xml
 BuildRequires:  swig
+BuildRequires:  keyutils-devel
 
 Requires:       dbus
 Requires:       json-c
@@ -96,5 +98,10 @@ applications.
 %{python3_sitearch}/%{name}/
 
 %changelog
+* Tue Jul 07 2026 NiceOS Team <support@niceos.ru> - 1.16.2-1
+- EN: Update to upstream version 1.16.2.
+- RU: Обновление до upstream-версии 1.16.2.
+
+
 * Fri Jan 09 2026 NiceOS Team <niceos@ncsgp.ru> - 1.16.1-1
 - Initial build for NiceOS (Первая сборка для НАЙС.ОС)

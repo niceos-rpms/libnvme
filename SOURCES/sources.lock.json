@@ -23,7 +23,7 @@
     "dir": "libnvme",
     "dir_policy": "spec-basename",
     "epoch": null,
-    "evr": "1.16.1-1",
+    "evr": "1.16.2-1",
     "name": "libnvme",
     "release": "1",
     "version": "1.16.1"
