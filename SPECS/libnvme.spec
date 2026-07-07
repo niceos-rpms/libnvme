@@ -20,7 +20,9 @@ BuildRequires:  json-c-devel
 BuildRequires:  meson
 BuildRequires:  openssl-devel
 BuildRequires:  python3-devel
+BuildRequires:	python3-xml
 BuildRequires:  swig
+BuildRequires:  keyutils-devel
 
 Requires:       dbus
 Requires:       json-c
